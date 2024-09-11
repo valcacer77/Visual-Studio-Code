@@ -1,0 +1,227 @@
+/* Definições de estilo para o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+/* Estilo para os cabeçalhos */
+h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+h3 {
+    margin: 10px 0;
+    color: #666;
+}
+/* Estilo para links */
+a {
+    color: #07bff7;
+    text-decoration: none;
+    font-family: "Courier New";
+}
+/* Estilos adicionais */
+.fonte-tamanho {
+    font-size: 20px;
+}
+.fonte-peso {
+    font-weight: 600;
+}
+.fonte-estilo {
+    font-style: italic;
+}
+.texto-cor {
+    color: #0088cc;
+}
+.texto-centralizado {
+    text-align: center;
+}
+.texto-sublinhado {
+    text-decoration: underline;
+}
+.texto-maiusculas {
+    text-transform: uppercase;
+}
+.sombra-texto {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.espacamento-letras {
+    letter-spacing: 1.5px;
+}
+.espacamento-palavras {
+    word-spacing: 14px;
+}
+/* Isto é um comentário simples em CSS */
+/*
+Este é um comentário
+de múltiplas linhas
+em CSS
+*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.destaque {
+    background-color: yellow;
+    font-weight: bold;
+}
+.texto-grande {
+    font-size: 24px;
+}
+.texto-azul {
+    color: blue;
+}
+#cabecalho-principal {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+/*Seletor universal*/
+*{
+    margin: 0;
+    padding: 0;
+}
+input[type="text"] {
+    border: 2px solid blue;
+    padding: 5px;
+}
+a[href="http"] {
+    color: red;
+}
+div[data-status="ativo"] {
+    background-color: green;
+}
+/*Especifidade (0,0,0,1) */
+h4 {
+    color: red;
+}
+/*Especifidade (0,0,1,0) */
+.special-header {
+    color: blue;
+}
+.texto-azul-important {
+    color: red; !important;
+}
+.texto-azul {
+    color: blue;
+}
+.paragrafo-absoluto {
+    font-size: 16px;
+}
+
+.paragrafo-ponto {
+    font-size: 12pt;
+}
+.caixa-polegada {
+    width: 2in;
+    height: 1in;
+    border: 1px solid black;
+  }
+  
+  .caixa-centimetro {
+    width: 5cm;
+    height: 2cm;
+    border: 1px solid red;
+  }
+  
+  .caixa-milimetro {
+    width: 50mm;
+    height: 20mm;
+    border: 1px solid green;
+  }
+  
+  .container {
+    font-size: 20px; /* Tamanho da fonte para o elemento pai */
+  }
+  
+  .texto-em {
+    font-size: 1.5em; /* 150% do tamanho da fonte do elemento pai, ou seja, 30px */
+  }
+  
+  html {
+    font-size: 16px; /* Define o tamanho da fonte padrão para a página */
+  }
+  
+  .texto-rem {
+    font-size: 2rem; /* 200% do tamanho da fonte do elemento raiz, ou seja, 32px */
+  }
+  
+  .container {
+    width: 500px; /*Largura do elemento pai */
+}
+.caixa-percentual {
+    width: 50%; /* 50% da largura do seu elemento pai, ou seja, 250px */
+    background-color: teal;
+  }
+  
+  .div-vh {
+    height: 50vh; /* 50% da altura da viewport */
+    background-color: lightblue;
+  }
+  
+  .div-vw {
+    width: 80vw; /* 80% da largura da viewport */
+    background-color: lightcoral;
+  }
+  
+  .cor-rgb {
+    color: rgb(255, 0, 0); /* Vermelho */
+    background-color: rgba(0, 0, 255, 0.5); /* Azul com 50% de opacidade */
+  }
+  
+  .cor-hex {
+    color: #00ff00; /* Verde */
+    background-color: #f00; /* Vermelho */
+  }
+  
+  .cor-hsl {
+    color: hsl(120, 100%, 25%); /* Verde escuro */
+    background-color: hsla(240, 100%, 50%, 0.3); /* Azul com 30% de opacidade */
+  }
+  
+  .fundo-imagem {
+    background-image: url("img/img4.jpg");
+    height: 300px;
+    width: 100%;
+  }
+
+  .fundo-tamanho {
+    background-image: url("img/img5.jpg");
+    background-size: cover; /* Cobrir todo o elemento */
+    height: 300px;
+    width: 100%;
+  }
+  
+  .fundo-posicao {
+    background-image: url("img/img6.jpg");
+    background-size: cover;
+    background-position: center; /* Centralizar a imagem de fundo */
+    height: 300px;
+    width: 100%;
+  }
+  
+  .fundo-repetir {
+    background-image: url("img/img4.jpg");
+    background-repeat: no-repeat; /* Não repetir a imagem */
+    height: 300px;
+    width: 100%;
+  }
+  
+  .caixa {
+    width: 200px; /* Define a largura da caixa */
+    height: 100px; /* Define a altura da caixa */
+    background-color: lightblue; /* Cor de fundo para visualização */
+  }
+  
+  .container {
+    width: 50%; /* A largura é definida como 50% da largura do elemento pai */
+  }
+  
+  .caixa-relativa {
+    width: 80%; /* A largura é 80% da largura do seu elemento pai (.container) */
+    height: 50vh; /* A altura é 50% da altura da viewport */
+    background-color: lightcoral; /* Cor de fundo para visualização */
+  }
